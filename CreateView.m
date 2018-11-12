@@ -20,4 +20,10 @@
     btn.layer.cornerRadius = radius;
     return btn;
 }
+
++(UILable *)createLableWithFrame:(CGRect)frame{
+    UILabel *lable = [[UILabel alloc]initWithFrame:CGRectZero];
+    lable.text = @"";
+    return lable;
+}
 @end
