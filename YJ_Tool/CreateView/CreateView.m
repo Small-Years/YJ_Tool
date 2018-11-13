@@ -21,7 +21,7 @@
     return btn;
 }
 
-+(UILable *)createLableWithFrame:(CGRect)frame{
++(UILabel *)createLableWithFrame:(CGRect)frame{
     UILabel *lable = [[UILabel alloc]initWithFrame:CGRectZero];
     lable.text = @"";
     return lable;
