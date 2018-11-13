@@ -88,7 +88,7 @@ Pod::Spec.new do |s|
   #  CocoaPods is smart about how it includes source code. For source files
   #  giving a folder will include any swift, h, m, mm, c & cpp files.
 
-  s.source_files  = "YJ_Tool/UIImage/*.{h,m}"
+  s.source_files  = "YJ_Tool/UIImage/*.{h,m}","YJ_Tool/CreateView/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
