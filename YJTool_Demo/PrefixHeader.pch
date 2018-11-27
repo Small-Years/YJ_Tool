@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  YJTool_Demo
+//
+//  Created by yangjian on 2018/11/27.
+//  Copyright © 2018 zhangshuyue. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#endif /* PrefixHeader_pch */
+
+
+
+#import "ToolPchHeader.h"
