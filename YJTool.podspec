@@ -43,26 +43,9 @@ Pod::Spec.new do |s|
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
-  #s.source_files = "YJTool_Demo/YJ_Tool/UIImage/*.{h,m}","YJTool_Demo/YJ_Tool/CreateView/*.{h,m}","YJTool_Demo/YJ_Tool/Tool/*.{h,m}","YJTool_Demo/YJ_Tool/EmptyData/*.{h,m}","YJTool_Demo/YJ_Tool/ToolPchHeader.h"
+  s.source_files = "YJTool_Demo/YJ_Tool/UIImage/*.{h,m}","YJTool_Demo/YJ_Tool/CreateView/*.{h,m}","YJTool_Demo/YJ_Tool/Tool/*.{h,m}","YJTool_Demo/YJ_Tool/EmptyData/*.{h,m}"
 
-
-  s.subspec 'UIImage' do |ss|
-	ss.source_files = "YJTool_Demo/YJ_Tool/UIImage/*.{h,m}"
-  end
-
-  s.subspec 'CreateView' do |ss|
-	ss.source_files = "YJTool_Demo/YJ_Tool/CreateView/*.{h,m}"
-  end
-
-  s.subspec 'Tool' do |ss|
-	ss.source_files = "YJTool_Demo/YJ_Tool/Tool/*.{h,m}"
-  end
-
-  s.subspec 'Tool' do |ss|
-	ss.source_files = "YJTool_Demo/YJ_Tool/EmptyData/*.{h,m}"
-	ss.resources = 'Resources/leftImage_White@2x.png','Resources/NoData@2x.png','Resources/leftImage_Gray@2x.png'
-  end
-
+  
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
    s.frameworks = "UIKit", "ImageIO"
