@@ -65,7 +65,6 @@
 		C719383B219A6C42008980FF /* YJTool_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJTool_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C719383F219A6C42008980FF /* YJTool_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJTool_DemoUITests.m; sourceTree = "<group>"; };
 		C7193841219A6C42008980FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C7193875219A7699008980FF /* ToolPchHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolPchHeader.h; sourceTree = "<group>"; };
 		C7193876219A7699008980FF /* UIImage+SubImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SubImage.m"; sourceTree = "<group>"; };
 		C7193877219A7699008980FF /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
 		C7193878219A7699008980FF /* UIImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rotate.h"; sourceTree = "<group>"; };
@@ -92,7 +91,7 @@
 		C7B82EE221AD26E9000119E6 /* UIButton+createBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+createBtn.m"; sourceTree = "<group>"; };
 		C7B82EE421AD2943000119E6 /* UIImageView+createImgView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+createImgView.h"; sourceTree = "<group>"; };
 		C7B82EE521AD2943000119E6 /* UIImageView+createImgView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+createImgView.m"; sourceTree = "<group>"; };
-		C7B82EE821AD2B5F000119E6 /* KeyDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyDefine.h; sourceTree = "<group>"; };
+		C7B82EF321AD54CD000119E6 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +122,6 @@
 		C719380F219A6C40008980FF = {
 			isa = PBXGroup;
 			children = (
-				C769550421ACE4A20091728D /* PrefixHeader.pch */,
 				C719381A219A6C40008980FF /* YJTool_Demo */,
 				C7193833219A6C42008980FF /* YJTool_DemoTests */,
 				C719383E219A6C42008980FF /* YJTool_DemoUITests */,
@@ -144,6 +142,7 @@
 		C719381A219A6C40008980FF /* YJTool_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				C769550421ACE4A20091728D /* PrefixHeader.pch */,
 				C7193873219A7699008980FF /* YJ_Tool */,
 				C719381E219A6C40008980FF /* ViewController.h */,
 				C719381F219A6C40008980FF /* ViewController.m */,
@@ -179,11 +178,12 @@
 		C7193873219A7699008980FF /* YJ_Tool */ = {
 			isa = PBXGroup;
 			children = (
-				C7193875219A7699008980FF /* ToolPchHeader.h */,
+				C7B82EF321AD54CD000119E6 /* Header.h */,
 				C7B82EE721AD29F7000119E6 /* Tool */,
 				C7193898219A7F64008980FF /* CreateView */,
 				C7193874219A7699008980FF /* UIImage */,
 				C7193883219A7699008980FF /* EmptyData */,
+				C7B82EF421AD5676000119E6 /* Resources */,
 			);
 			path = YJ_Tool;
 			sourceTree = "<group>";
@@ -210,9 +210,6 @@
 			children = (
 				C7193884219A7699008980FF /* UITableView+EmptyData.h */,
 				C7193889219A7699008980FF /* UITableView+EmptyData.m */,
-				C7193886219A7699008980FF /* leftImage_White@2x.png */,
-				C7193888219A7699008980FF /* NoData@2x.png */,
-				C719388A219A7699008980FF /* leftImage_Gray@2x.png */,
 			);
 			path = EmptyData;
 			sourceTree = "<group>";
@@ -233,13 +230,22 @@
 		C7B82EE721AD29F7000119E6 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				C7B82EE821AD2B5F000119E6 /* KeyDefine.h */,
 				C769550121ACDA8B0091728D /* ShowWarnView.h */,
 				C769550221ACDA8B0091728D /* ShowWarnView.m */,
 				C7193885219A7699008980FF /* UIView+Extension.h */,
 				C719388B219A7699008980FF /* UIView+Extension.m */,
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		C7B82EF421AD5676000119E6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C7193886219A7699008980FF /* leftImage_White@2x.png */,
+				C7193888219A7699008980FF /* NoData@2x.png */,
+				C719388A219A7699008980FF /* leftImage_Gray@2x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -562,7 +568,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 63LX5KURWW;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YJTool_Demo/PrefixHeader.pch";
 				INFOPLIST_FILE = YJTool_Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -582,7 +588,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 63LX5KURWW;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YJTool_Demo/PrefixHeader.pch";
 				INFOPLIST_FILE = YJTool_Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
