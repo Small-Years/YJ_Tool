@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "YJTool"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = "YJTool 个人使用工具类集合"
 
    s.description  = <<-DESC 
@@ -38,12 +38,30 @@ Pod::Spec.new do |s|
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
-  s.source       = { :git => "https://github.com/Small-Years/YJ_Tool.git", :tag => "1.0.3" }
+  s.source       = { :git => "https://github.com/Small-Years/YJ_Tool.git", :tag => "1.0.4" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  s.source_files = "YJTool_Demo/YJ_Tool/UIImage/*.{h,m}"
+  #s.source_files = "YJTool_Demo/YJ_Tool/UIImage/*.{h,m}","YJTool_Demo/YJ_Tool/CreateView/*.{h,m}","YJTool_Demo/YJ_Tool/Tool/*.{h,m}","YJTool_Demo/YJ_Tool/EmptyData/*.{h,m}"
+
+  #s.source_files = "YJTool_Demo/YJ_Tool"
+
+  s.subspec 'UIImage' do |ss|
+	ss.source_files = "YJTool_Demo/YJ_Tool/UIImage/*.{h,m}"
+  end
+
+  s.subspec 'CreateView' do |ss|
+	ss.source_files = "YJTool_Demo/YJ_Tool/CreateView/*.{h,m}"
+  end
+
+  s.subspec 'Tool' do |ss|
+	ss.source_files = "YJTool_Demo/YJ_Tool/Tool/*.{h,m}"
+  end
+
+  s.subspec 'EmptyData' do |ss|
+	ss.source_files = "YJTool_Demo/YJ_Tool/EmptyData/*.{h,m}"
+	ss.resources = 'Resources/*'
+  end
   
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
