@@ -47,7 +47,7 @@ Pod::Spec.new do |s|
   #
   s.source_files = "YJTool_Demo/YJ_Tool/Header.h"
   s.public_header_files = "YJTool_Demo/YJ_Tool/Header.h"
-  s.resources = 'Resources/*.png'
+  s.resources = 'YJTool_Demo/YJ_Tool/Resources/*.png'
 
   s.subspec 'UIImage' do |ss|
 	ss.source_files = "YJTool_Demo/YJ_Tool/UIImage/*.{h,m}"

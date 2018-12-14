@@ -1,5 +1,5 @@
 //
-//  UIView+Extension.h
+//  UIView+YJViewExtension.h
 //  MJRefreshExample
 //
 //  Created by MJ Lee on 14-5-28.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (Extension)
+@interface UIView (YJViewExtension)
 @property (assign, nonatomic) CGFloat x;
 @property (assign, nonatomic) CGFloat y;
 @property (assign, nonatomic) CGFloat width;

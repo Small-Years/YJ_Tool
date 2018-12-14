@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C713565221C34D2A005FB1F5 /* YJAllmethod.m in Sources */ = {isa = PBXBuildFile; fileRef = C713565021C34D29005FB1F5 /* YJAllmethod.m */; };
+		C713565521C34D6A005FB1F5 /* UIView+YJViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C713565421C34D6A005FB1F5 /* UIView+YJViewExtension.m */; };
 		C719381D219A6C40008980FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C719381C219A6C40008980FF /* AppDelegate.m */; };
 		C7193820219A6C40008980FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C719381F219A6C40008980FF /* ViewController.m */; };
 		C7193823219A6C40008980FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7193821219A6C40008980FF /* Main.storyboard */; };
@@ -24,7 +26,6 @@
 		C7193894219A7699008980FF /* NoData@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7193888219A7699008980FF /* NoData@2x.png */; };
 		C7193895219A7699008980FF /* UITableView+EmptyData.m in Sources */ = {isa = PBXBuildFile; fileRef = C7193889219A7699008980FF /* UITableView+EmptyData.m */; };
 		C7193896219A7699008980FF /* leftImage_Gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C719388A219A7699008980FF /* leftImage_Gray@2x.png */; };
-		C7193897219A7699008980FF /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C719388B219A7699008980FF /* UIView+Extension.m */; };
 		C769550321ACDA8B0091728D /* ShowWarnView.m in Sources */ = {isa = PBXBuildFile; fileRef = C769550221ACDA8B0091728D /* ShowWarnView.m */; };
 		C7B82EE021AD26C0000119E6 /* UILabel+createLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B82EDF21AD26BF000119E6 /* UILabel+createLabel.m */; };
 		C7B82EE321AD26E9000119E6 /* UIButton+createBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B82EE221AD26E9000119E6 /* UIButton+createBtn.m */; };
@@ -49,6 +50,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C713565021C34D29005FB1F5 /* YJAllmethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJAllmethod.m; sourceTree = "<group>"; };
+		C713565121C34D2A005FB1F5 /* YJAllmethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJAllmethod.h; sourceTree = "<group>"; };
+		C713565321C34D6A005FB1F5 /* UIView+YJViewExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YJViewExtension.h"; sourceTree = "<group>"; };
+		C713565421C34D6A005FB1F5 /* UIView+YJViewExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YJViewExtension.m"; sourceTree = "<group>"; };
 		C7193818219A6C40008980FF /* YJTool_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJTool_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C719381B219A6C40008980FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C719381C219A6C40008980FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -76,12 +81,10 @@
 		C719387E219A7699008980FF /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 		C719387F219A7699008980FF /* UIImage+Gif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Gif.h"; sourceTree = "<group>"; };
 		C7193884219A7699008980FF /* UITableView+EmptyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+EmptyData.h"; sourceTree = "<group>"; };
-		C7193885219A7699008980FF /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		C7193886219A7699008980FF /* leftImage_White@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leftImage_White@2x.png"; sourceTree = "<group>"; };
 		C7193888219A7699008980FF /* NoData@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NoData@2x.png"; sourceTree = "<group>"; };
 		C7193889219A7699008980FF /* UITableView+EmptyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+EmptyData.m"; sourceTree = "<group>"; };
 		C719388A219A7699008980FF /* leftImage_Gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leftImage_Gray@2x.png"; sourceTree = "<group>"; };
-		C719388B219A7699008980FF /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		C769550121ACDA8B0091728D /* ShowWarnView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowWarnView.h; sourceTree = "<group>"; };
 		C769550221ACDA8B0091728D /* ShowWarnView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowWarnView.m; sourceTree = "<group>"; };
 		C769550421ACE4A20091728D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -91,7 +94,7 @@
 		C7B82EE221AD26E9000119E6 /* UIButton+createBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+createBtn.m"; sourceTree = "<group>"; };
 		C7B82EE421AD2943000119E6 /* UIImageView+createImgView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+createImgView.h"; sourceTree = "<group>"; };
 		C7B82EE521AD2943000119E6 /* UIImageView+createImgView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+createImgView.m"; sourceTree = "<group>"; };
-		C7B82EF321AD54CD000119E6 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		C7B82EF321AD54CD000119E6 /* YJ_ToolHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJ_ToolHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,7 +181,7 @@
 		C7193873219A7699008980FF /* YJ_Tool */ = {
 			isa = PBXGroup;
 			children = (
-				C7B82EF321AD54CD000119E6 /* Header.h */,
+				C7B82EF321AD54CD000119E6 /* YJ_ToolHeader.h */,
 				C7B82EE721AD29F7000119E6 /* Tool */,
 				C7193898219A7F64008980FF /* CreateView */,
 				C7193874219A7699008980FF /* UIImage */,
@@ -230,10 +233,12 @@
 		C7B82EE721AD29F7000119E6 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				C713565321C34D6A005FB1F5 /* UIView+YJViewExtension.h */,
+				C713565421C34D6A005FB1F5 /* UIView+YJViewExtension.m */,
+				C713565121C34D2A005FB1F5 /* YJAllmethod.h */,
+				C713565021C34D29005FB1F5 /* YJAllmethod.m */,
 				C769550121ACDA8B0091728D /* ShowWarnView.h */,
 				C769550221ACDA8B0091728D /* ShowWarnView.m */,
-				C7193885219A7699008980FF /* UIView+Extension.h */,
-				C719388B219A7699008980FF /* UIView+Extension.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -382,16 +387,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7B82EE021AD26C0000119E6 /* UILabel+createLabel.m in Sources */,
+				C713565221C34D2A005FB1F5 /* YJAllmethod.m in Sources */,
 				C7B82EE621AD2943000119E6 /* UIImageView+createImgView.m in Sources */,
 				C719388D219A7699008980FF /* UIImage+Gif.m in Sources */,
 				C7B82EE321AD26E9000119E6 /* UIButton+createBtn.m in Sources */,
-				C7193897219A7699008980FF /* UIView+Extension.m in Sources */,
 				C7193820219A6C40008980FF /* ViewController.m in Sources */,
 				C719382B219A6C42008980FF /* main.m in Sources */,
 				C719388E219A7699008980FF /* UIImage+headImage.m in Sources */,
 				C769550321ACDA8B0091728D /* ShowWarnView.m in Sources */,
 				C719388C219A7699008980FF /* UIImage+SubImage.m in Sources */,
 				C7193890219A7699008980FF /* UIImage+Color.m in Sources */,
+				C713565521C34D6A005FB1F5 /* UIView+YJViewExtension.m in Sources */,
 				C719388F219A7699008980FF /* UIImage+Rotate.m in Sources */,
 				C719381D219A6C40008980FF /* AppDelegate.m in Sources */,
 				C7193895219A7699008980FF /* UITableView+EmptyData.m in Sources */,

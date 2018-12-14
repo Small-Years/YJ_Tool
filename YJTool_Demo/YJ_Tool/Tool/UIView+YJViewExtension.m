@@ -1,14 +1,14 @@
 //
-//  UIView+Extension.m
+//  UIView+YJViewExtension.m
 //  MJRefreshExample
 //
 //  Created by MJ Lee on 14-5-28.
 //  Copyright (c) 2014年 itcast. All rights reserved.
 //
 
-#import "UIView+Extension.h"
+#import "UIView+YJViewExtension.h"
 
-@implementation UIView (Extension)
+@implementation UIView (YJViewExtension)
 - (void)setX:(CGFloat)x
 {
     CGRect frame = self.frame;

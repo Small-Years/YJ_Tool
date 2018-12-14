@@ -20,17 +20,21 @@
 -(void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
     
-    UIView *mainView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH-60, 200)];
+    UIView *mainView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH-100, 200)];
     mainView.backgroundColor = [UIColor whiteColor];
     mainView.layer.cornerRadius = 5;
-    
-    ShowWarnView *vc = [[ShowWarnView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
-    vc.centerView = mainView;
-    [vc show];
-    
-    UIButton *btn = [UIButton buttonWithFrame:CGRectMake(0, 100, 100, 100) backgroundColor:[UIColor redColor] image:nil title:nil titleColor:nil titleFont:16 action:@selector(btnClicked) target:self];
-    [self.view addSubview:btn];
+    mainView.center = self.view.center;
+    [self.view addSubview:mainView];
+    [YJAllmethod addShadowToView:mainView color:RGB(76, 76, 76) shadowWidth:5 shadowType:UIShadowSideTypeRight];
+    [YJAllmethod addShadowToView:mainView color:RGB(76, 76, 76) shadowWidth:5 shadowType:UIShadowSideTypeBottom];
+//    ShowWarnView *vc = [[ShowWarnView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
+//    vc.centerView = mainView;
+//    [vc show];
+//
+//    UIButton *btn = [UIButton buttonWithFrame:CGRectMake(0, 100, 100, 100) backgroundColor:[UIColor redColor] image:nil title:nil titleColor:nil titleFont:16 action:@selector(btnClicked) target:self];
+//    [self.view addSubview:btn];
 }
+
 
 -(void)btnClicked{
     NSLog(@"btn");

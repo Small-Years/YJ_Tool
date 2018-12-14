@@ -28,4 +28,13 @@
 /** 将两个图片生成一张图片 */
 + (UIImage*)mergeImage:(UIImage*)firstImage withImage:(UIImage*)secondImage;
 
+/**
+ *  传入图片的名称,返回一张可拉伸不变形的图片
+ *
+ *  @param imageName 图片名称
+ *
+ *  @return 可拉伸图片
+ */
++(UIImage *)changeImage :(NSString *)imageName;
+
 @end

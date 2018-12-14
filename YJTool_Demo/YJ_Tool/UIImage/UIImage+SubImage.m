@@ -109,4 +109,16 @@
     return image;
 }
 
+//拉伸图像的方法，给我一个图像的名称，然后拉伸完，返回一个拉伸后的图
++(UIImage *)changeImage :(NSString *)imageName {
+    UIImage *norImage = [UIImage imageNamed:imageName];
+    //    计算出传来的图像的中心位置
+    CGFloat w = norImage.size.width * 0.5;
+    CGFloat h = norImage.size.height * 0.5;
+    //    指定可以拉伸的地方就是图像中心的微小的一个像素，
+    UIImage *newImage = [norImage resizableImageWithCapInsets:UIEdgeInsetsMake(h, w, h, w) resizingMode:UIImageResizingModeStretch];
+    //    拉伸完之后返回一个新图像
+    return newImage;
+}
+
 @end
