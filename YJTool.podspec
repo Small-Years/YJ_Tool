@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "YJTool"
-  s.version      = "1.1.0"
+  s.version      = "1.1.2"
   s.summary      = "YJTool 个人使用工具类集合"
 
    s.description  = <<-DESC 
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
-  s.source       = { :git => "https://github.com/Small-Years/YJ_Tool.git", :tag => "1.1.0" }
+  s.source       = { :git => "https://github.com/Small-Years/YJ_Tool.git", :tag => "1.1.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
