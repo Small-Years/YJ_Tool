@@ -40,13 +40,13 @@
     
     CGRect shadowRect;
     if (shadowType == UIShadowSideTypeTop){
-        shadowRect = CGRectMake(0, 0, needView.width, shadowWidth);
+        shadowRect = CGRectMake(0, 0, needView.bounds.size.width, shadowWidth);
     }else if (shadowType == UIShadowSideTypeLeft){
-        shadowRect = CGRectMake(-shadowWidth, 0, shadowWidth, needView.height);
+        shadowRect = CGRectMake(-shadowWidth, 0, shadowWidth, needView.bounds.size.height);
     }else if (shadowType == UIShadowSideTypeBottom){
-        shadowRect = CGRectMake(0, needView.height - shadowWidth*0.5, needView.width, shadowWidth);
+        shadowRect = CGRectMake(0, needView.bounds.size.height - shadowWidth*0.5, needView.bounds.size.width, shadowWidth);
     }else{
-        shadowRect = CGRectMake(needView.width-shadowWidth *0.5, 0, shadowWidth,needView.height);
+        shadowRect = CGRectMake(needView.bounds.size.width-shadowWidth *0.5, 0, shadowWidth,needView.bounds.size.height);
     }
     
     UIBezierPath *path = [UIBezierPath bezierPathWithRect:shadowRect];
@@ -58,7 +58,7 @@
 +(void)setRightViewWithTextField:(UITextField *)textField imageName:(NSString *)imageName{
     UIImageView *rightView = [[UIImageView alloc]init];
     rightView.image = [UIImage imageNamed:imageName];
-    rightView.size = CGSizeMake(textField.height, textField.height);
+    rightView.size = CGSizeMake(textField.bounds.size.height, textField.bounds.size.height);
     rightView.contentMode = UIViewContentModeCenter;
     textField.rightView = rightView;
     textField.rightViewMode = UITextFieldViewModeAlways;
