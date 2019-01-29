@@ -67,6 +67,16 @@ typedef enum : NSUInteger {
  */
 + (void)addBorderForView:(UIView *)needView color:(UIColor *)bordercolor borderWidth:(CGFloat)borderWidth borderType:(UIBorderSideType)borderType;
 
+
+/**
+ 生成毛玻璃图片
+ 
+ @param theImage 需要改变的图片
+ @return 毛玻璃图
+ */
++ (UIImage *)createBlurImage:(UIImage *)theImage;
+
+
 @end
 
 
