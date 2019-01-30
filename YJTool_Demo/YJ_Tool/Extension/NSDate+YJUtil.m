@@ -525,7 +525,7 @@ static NSDateFormatter *_displayFormatter = nil;
 + (NSString *)getWeChatFormatDateStringBySourceDate:(NSDate *)sourceDate
 {
     
-    NSDate *localDate = [sourceDate toLocalTime];
+//    NSDate *localDate = [sourceDate toLocalTime];
     
     NSString *ret = @"";
     
