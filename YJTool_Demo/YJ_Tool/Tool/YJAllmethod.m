@@ -7,7 +7,6 @@
 //
 
 #import "YJAllmethod.h"
-#import "UIView+YJViewExtension.h"
 
 @implementation YJAllmethod
 
