@@ -76,6 +76,24 @@ typedef enum : NSUInteger {
  */
 + (UIImage *)createBlurImage:(UIImage *)theImage;
 
+/**
+ 获取当前日期
+ 
+ @param dateFormatter 日期格式：yyyy-MM-dd 、yyyy年MM月dd日 。。。
+ @return 返回日期
+ */
++(NSString *)getNowDateWithFormatter:(NSString *) dateFormatter;
+
+/**
+ 更改日期格式
+ 
+ @param dateStr 需要修改的日期
+ @param formatter 现格式    @"yyyy年MM月dd日"
+ @param n_Formatter 需修改格式   @"yyyy-MM-dd"
+ @return 修改好的日期字符串
+ */
++(NSString *)changeDateMethod:(NSString *)dateStr From:(NSString *)formatter To:(NSString *)n_Formatter;
+
 
 @end
 

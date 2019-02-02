@@ -30,6 +30,7 @@
 		C7B82EE321AD26E9000119E6 /* UIButton+createBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B82EE221AD26E9000119E6 /* UIButton+createBtn.m */; };
 		C7B82EE621AD2943000119E6 /* UIImageView+createImgView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B82EE521AD2943000119E6 /* UIImageView+createImgView.m */; };
 		C7F613E3220532470015A5A0 /* UIView+YJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F613E2220532470015A5A0 /* UIView+YJExtension.m */; };
+		C7F613E72205369E0015A5A0 /* NSDate+YJDateExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F613E62205369E0015A5A0 /* NSDate+YJDateExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,8 @@
 		C7B82EF321AD54CD000119E6 /* YJ_ToolHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJ_ToolHeader.h; sourceTree = "<group>"; };
 		C7F613E1220532470015A5A0 /* UIView+YJExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+YJExtension.h"; sourceTree = "<group>"; };
 		C7F613E2220532470015A5A0 /* UIView+YJExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YJExtension.m"; sourceTree = "<group>"; };
+		C7F613E52205369E0015A5A0 /* NSDate+YJDateExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+YJDateExtension.h"; sourceTree = "<group>"; };
+		C7F613E62205369E0015A5A0 /* NSDate+YJDateExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YJDateExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +184,7 @@
 		C7193873219A7699008980FF /* YJ_Tool */ = {
 			isa = PBXGroup;
 			children = (
+				C7F613E4220535C00015A5A0 /* Category */,
 				C7B82EF321AD54CD000119E6 /* YJ_ToolHeader.h */,
 				C7B82EE721AD29F7000119E6 /* Tool */,
 				C7193898219A7F64008980FF /* CreateView */,
@@ -251,6 +255,15 @@
 				C719388A219A7699008980FF /* leftImage_Gray@2x.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		C7F613E4220535C00015A5A0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C7F613E52205369E0015A5A0 /* NSDate+YJDateExtension.h */,
+				C7F613E62205369E0015A5A0 /* NSDate+YJDateExtension.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -397,6 +410,7 @@
 				C719388E219A7699008980FF /* UIImage+headImage.m in Sources */,
 				C769550321ACDA8B0091728D /* ShowWarnView.m in Sources */,
 				C719388C219A7699008980FF /* UIImage+SubImage.m in Sources */,
+				C7F613E72205369E0015A5A0 /* NSDate+YJDateExtension.m in Sources */,
 				C7193890219A7699008980FF /* UIImage+Color.m in Sources */,
 				C719388F219A7699008980FF /* UIImage+Rotate.m in Sources */,
 				C719381D219A6C40008980FF /* AppDelegate.m in Sources */,

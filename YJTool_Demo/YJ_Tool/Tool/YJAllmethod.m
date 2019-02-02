@@ -134,4 +134,25 @@
     return returnImage;
 }
 
++(NSString *)getNowDateWithFormatter:(NSString *)dateFormatter{
+    //    dateFormatter格式：yyyy-MM-dd 、yyyy年MM月dd日 。。。
+    NSDate *date = [NSDate date];
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:dateFormatter];
+    NSString *timeStr = [formatter stringFromDate:date];
+    return timeStr;
+}
+
++(NSString *)changeDateMethod:(NSString *)dateStr From:(NSString *)formatter To:(NSString *)n_Formatter{
+    NSDateFormatter *dateformatter = [[NSDateFormatter alloc] init];
+    [dateformatter setDateFormat:formatter];
+    NSDate *date = [dateformatter dateFromString:dateStr];
+    [dateformatter setDateFormat:n_Formatter];
+    dateStr = [dateformatter stringFromDate:date];
+    if ([dateStr isEqualToString:@""] || dateStr == nil || [dateStr isKindOfClass:[NSNull class]]) {//如果转换的日期是空
+        return @"";
+    }
+    return dateStr;
+}
+
 @end
