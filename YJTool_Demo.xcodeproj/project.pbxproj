@@ -31,6 +31,7 @@
 		C7B82EE621AD2943000119E6 /* UIImageView+createImgView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B82EE521AD2943000119E6 /* UIImageView+createImgView.m */; };
 		C7F613E3220532470015A5A0 /* UIView+YJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F613E2220532470015A5A0 /* UIView+YJExtension.m */; };
 		C7F613E72205369E0015A5A0 /* NSDate+YJDateExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F613E62205369E0015A5A0 /* NSDate+YJDateExtension.m */; };
+		C7F613EA22053D580015A5A0 /* NSString+YJStringExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F613E922053D580015A5A0 /* NSString+YJStringExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +99,8 @@
 		C7F613E2220532470015A5A0 /* UIView+YJExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YJExtension.m"; sourceTree = "<group>"; };
 		C7F613E52205369E0015A5A0 /* NSDate+YJDateExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+YJDateExtension.h"; sourceTree = "<group>"; };
 		C7F613E62205369E0015A5A0 /* NSDate+YJDateExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YJDateExtension.m"; sourceTree = "<group>"; };
+		C7F613E822053D580015A5A0 /* NSString+YJStringExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+YJStringExtension.h"; sourceTree = "<group>"; };
+		C7F613E922053D580015A5A0 /* NSString+YJStringExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+YJStringExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,6 +265,8 @@
 			children = (
 				C7F613E52205369E0015A5A0 /* NSDate+YJDateExtension.h */,
 				C7F613E62205369E0015A5A0 /* NSDate+YJDateExtension.m */,
+				C7F613E822053D580015A5A0 /* NSString+YJStringExtension.h */,
+				C7F613E922053D580015A5A0 /* NSString+YJStringExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -414,6 +419,7 @@
 				C7193890219A7699008980FF /* UIImage+Color.m in Sources */,
 				C719388F219A7699008980FF /* UIImage+Rotate.m in Sources */,
 				C719381D219A6C40008980FF /* AppDelegate.m in Sources */,
+				C7F613EA22053D580015A5A0 /* NSString+YJStringExtension.m in Sources */,
 				C7193895219A7699008980FF /* UITableView+EmptyData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -94,7 +94,14 @@ typedef enum : NSUInteger {
  */
 +(NSString *)changeDateMethod:(NSString *)dateStr From:(NSString *)formatter To:(NSString *)n_Formatter;
 
+//Tool
+/**
+ 判断字符串是否为空
 
+ @param aStr aStr
+ @return 空：YES  不空：NO
+ */
++(BOOL)isNullString:(NSString *)aStr;
 @end
 
 

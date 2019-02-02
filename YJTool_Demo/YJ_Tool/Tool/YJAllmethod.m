@@ -155,4 +155,24 @@
     return dateStr;
 }
 
+
++(BOOL)isNullString:(NSString *)aStr{
+    if (!aStr) {
+        return YES;
+    }
+    if ([aStr isKindOfClass:[NSNull class]]) {
+        return YES;
+    }
+    if ([aStr isKindOfClass:[NSString class]]) {
+        if ([aStr isEqualToString:@"(null)"] || [aStr isEqualToString:@"<null>"] ||[aStr isEqualToString:@"null"] || [aStr isEqualToString:@"（null）"]) {
+            return YES;
+        }
+        NSCharacterSet *set = [NSCharacterSet whitespaceAndNewlineCharacterSet];
+        NSString *trimmedStr = [aStr stringByTrimmingCharactersInSet:set];
+        if (!trimmedStr.length) {
+            return YES;
+        }
+    }
+    return NO;
+}
 @end
