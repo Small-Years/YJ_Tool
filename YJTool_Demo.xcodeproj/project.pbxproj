@@ -26,7 +26,6 @@
 		C7193894219A7699008980FF /* NoData@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7193888219A7699008980FF /* NoData@2x.png */; };
 		C7193895219A7699008980FF /* UITableView+EmptyData.m in Sources */ = {isa = PBXBuildFile; fileRef = C7193889219A7699008980FF /* UITableView+EmptyData.m */; };
 		C7193896219A7699008980FF /* leftImage_Gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C719388A219A7699008980FF /* leftImage_Gray@2x.png */; };
-		C7413CC2220003E60094FFB0 /* NSDate+YJUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C7413CC1220003E60094FFB0 /* NSDate+YJUtil.m */; };
 		C769550321ACDA8B0091728D /* ShowWarnView.m in Sources */ = {isa = PBXBuildFile; fileRef = C769550221ACDA8B0091728D /* ShowWarnView.m */; };
 		C7B82EE021AD26C0000119E6 /* UILabel+createLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B82EDF21AD26BF000119E6 /* UILabel+createLabel.m */; };
 		C7B82EE321AD26E9000119E6 /* UIButton+createBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B82EE221AD26E9000119E6 /* UIButton+createBtn.m */; };
@@ -86,8 +85,6 @@
 		C7193888219A7699008980FF /* NoData@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NoData@2x.png"; sourceTree = "<group>"; };
 		C7193889219A7699008980FF /* UITableView+EmptyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+EmptyData.m"; sourceTree = "<group>"; };
 		C719388A219A7699008980FF /* leftImage_Gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leftImage_Gray@2x.png"; sourceTree = "<group>"; };
-		C7413CC0220003E60094FFB0 /* NSDate+YJUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+YJUtil.h"; sourceTree = "<group>"; };
-		C7413CC1220003E60094FFB0 /* NSDate+YJUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YJUtil.m"; sourceTree = "<group>"; };
 		C769550121ACDA8B0091728D /* ShowWarnView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowWarnView.h; sourceTree = "<group>"; };
 		C769550221ACDA8B0091728D /* ShowWarnView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowWarnView.m; sourceTree = "<group>"; };
 		C769550421ACE4A20091728D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -239,8 +236,6 @@
 			children = (
 				C713565321C34D6A005FB1F5 /* UIView+YJViewExtension.h */,
 				C713565421C34D6A005FB1F5 /* UIView+YJViewExtension.m */,
-				C7413CC0220003E60094FFB0 /* NSDate+YJUtil.h */,
-				C7413CC1220003E60094FFB0 /* NSDate+YJUtil.m */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -408,7 +403,6 @@
 				C719382B219A6C42008980FF /* main.m in Sources */,
 				C719388E219A7699008980FF /* UIImage+headImage.m in Sources */,
 				C769550321ACDA8B0091728D /* ShowWarnView.m in Sources */,
-				C7413CC2220003E60094FFB0 /* NSDate+YJUtil.m in Sources */,
 				C719388C219A7699008980FF /* UIImage+SubImage.m in Sources */,
 				C7193890219A7699008980FF /* UIImage+Color.m in Sources */,
 				C713565521C34D6A005FB1F5 /* UIView+YJViewExtension.m in Sources */,
@@ -586,7 +580,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 63LX5KURWW;
+				DEVELOPMENT_TEAM = M3R3X7YGQ6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YJTool_Demo/PrefixHeader.pch";
 				INFOPLIST_FILE = YJTool_Demo/Info.plist;
@@ -606,7 +600,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 63LX5KURWW;
+				DEVELOPMENT_TEAM = M3R3X7YGQ6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YJTool_Demo/PrefixHeader.pch";
 				INFOPLIST_FILE = YJTool_Demo/Info.plist;

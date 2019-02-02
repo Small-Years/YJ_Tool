@@ -119,7 +119,7 @@
 }
 
 //毛玻璃
--(UIImage *)createBlurImage:(UIImage *)theImage{
++(UIImage *)createBlurImage:(UIImage *)theImage{
     
     CIContext *context = [CIContext contextWithOptions:nil];
     CIImage *inputImage = [CIImage imageWithCGImage:theImage.CGImage];
