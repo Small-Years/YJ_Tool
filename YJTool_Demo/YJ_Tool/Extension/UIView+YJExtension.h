@@ -1,14 +1,17 @@
 //
-//  UIView+YJViewExtension.h
-//  MJRefreshExample
+//  UIView+YJExtension.h
+//  YJTool_Demo
 //
-//  Created by MJ Lee on 14-5-28.
-//  Copyright (c) 2014年 itcast. All rights reserved.
+//  Created by yangjian on 2019/2/2.
+//  Copyright © 2019 zhangshuyue. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (YJViewExtension)
+
+
+@interface UIView (YJExtension)
+
 @property (assign, nonatomic) CGFloat x;
 @property (assign, nonatomic) CGFloat y;
 @property (assign, nonatomic) CGFloat width;
@@ -39,7 +42,5 @@
  */
 - (CGFloat)autoresizeWidthToHeight:(CGFloat)height;
 @end
-
-
 
 

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C713565221C34D2A005FB1F5 /* YJAllmethod.m in Sources */ = {isa = PBXBuildFile; fileRef = C713565021C34D29005FB1F5 /* YJAllmethod.m */; };
-		C713565521C34D6A005FB1F5 /* UIView+YJViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C713565421C34D6A005FB1F5 /* UIView+YJViewExtension.m */; };
 		C719381D219A6C40008980FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C719381C219A6C40008980FF /* AppDelegate.m */; };
 		C7193820219A6C40008980FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C719381F219A6C40008980FF /* ViewController.m */; };
 		C7193823219A6C40008980FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7193821219A6C40008980FF /* Main.storyboard */; };
@@ -30,6 +29,7 @@
 		C7B82EE021AD26C0000119E6 /* UILabel+createLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B82EDF21AD26BF000119E6 /* UILabel+createLabel.m */; };
 		C7B82EE321AD26E9000119E6 /* UIButton+createBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B82EE221AD26E9000119E6 /* UIButton+createBtn.m */; };
 		C7B82EE621AD2943000119E6 /* UIImageView+createImgView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B82EE521AD2943000119E6 /* UIImageView+createImgView.m */; };
+		C7F613E3220532470015A5A0 /* UIView+YJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F613E2220532470015A5A0 /* UIView+YJExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,6 @@
 /* Begin PBXFileReference section */
 		C713565021C34D29005FB1F5 /* YJAllmethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJAllmethod.m; sourceTree = "<group>"; };
 		C713565121C34D2A005FB1F5 /* YJAllmethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJAllmethod.h; sourceTree = "<group>"; };
-		C713565321C34D6A005FB1F5 /* UIView+YJViewExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YJViewExtension.h"; sourceTree = "<group>"; };
-		C713565421C34D6A005FB1F5 /* UIView+YJViewExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YJViewExtension.m"; sourceTree = "<group>"; };
 		C7193818219A6C40008980FF /* YJTool_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJTool_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C719381B219A6C40008980FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C719381C219A6C40008980FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -95,6 +93,8 @@
 		C7B82EE421AD2943000119E6 /* UIImageView+createImgView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+createImgView.h"; sourceTree = "<group>"; };
 		C7B82EE521AD2943000119E6 /* UIImageView+createImgView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+createImgView.m"; sourceTree = "<group>"; };
 		C7B82EF321AD54CD000119E6 /* YJ_ToolHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJ_ToolHeader.h; sourceTree = "<group>"; };
+		C7F613E1220532470015A5A0 /* UIView+YJExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+YJExtension.h"; sourceTree = "<group>"; };
+		C7F613E2220532470015A5A0 /* UIView+YJExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YJExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,8 +234,8 @@
 		C7413C8C220001600094FFB0 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				C713565321C34D6A005FB1F5 /* UIView+YJViewExtension.h */,
-				C713565421C34D6A005FB1F5 /* UIView+YJViewExtension.m */,
+				C7F613E1220532470015A5A0 /* UIView+YJExtension.h */,
+				C7F613E2220532470015A5A0 /* UIView+YJExtension.m */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -397,6 +397,7 @@
 				C7B82EE021AD26C0000119E6 /* UILabel+createLabel.m in Sources */,
 				C713565221C34D2A005FB1F5 /* YJAllmethod.m in Sources */,
 				C7B82EE621AD2943000119E6 /* UIImageView+createImgView.m in Sources */,
+				C7F613E3220532470015A5A0 /* UIView+YJExtension.m in Sources */,
 				C719388D219A7699008980FF /* UIImage+Gif.m in Sources */,
 				C7B82EE321AD26E9000119E6 /* UIButton+createBtn.m in Sources */,
 				C7193820219A6C40008980FF /* ViewController.m in Sources */,
@@ -405,7 +406,6 @@
 				C769550321ACDA8B0091728D /* ShowWarnView.m in Sources */,
 				C719388C219A7699008980FF /* UIImage+SubImage.m in Sources */,
 				C7193890219A7699008980FF /* UIImage+Color.m in Sources */,
-				C713565521C34D6A005FB1F5 /* UIView+YJViewExtension.m in Sources */,
 				C719388F219A7699008980FF /* UIImage+Rotate.m in Sources */,
 				C719381D219A6C40008980FF /* AppDelegate.m in Sources */,
 				C7193895219A7699008980FF /* UITableView+EmptyData.m in Sources */,
