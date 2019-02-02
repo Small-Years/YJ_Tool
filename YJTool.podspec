@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "YJTool"
-  s.version      = "1.2.0"
+  s.version      = "1.2.1"
   s.summary      = "YJTool 个人使用工具类集合"
 
   s.description  = <<-DESC 
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
-  s.source       = { :git => "https://github.com/Small-Years/YJ_Tool.git", :tag => "1.2.0" }
+  s.source       = { :git => "https://github.com/Small-Years/YJ_Tool.git", :tag => "1.2.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -63,10 +63,6 @@ Pod::Spec.new do |s|
 
   s.subspec 'EmptyData' do |ss|
 	ss.source_files = "YJTool_Demo/YJ_Tool/EmptyData/*.{h,m}"
-  end
-
-  s.subspec 'Extension' do |ss|
-	ss.source_files = "YJTool_Demo/YJ_Tool/Extension/*.{h,m}"
   end
   
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

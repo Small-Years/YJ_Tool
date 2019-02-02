@@ -182,7 +182,6 @@
 			isa = PBXGroup;
 			children = (
 				C7B82EF321AD54CD000119E6 /* YJ_ToolHeader.h */,
-				C7413C8C220001600094FFB0 /* Extension */,
 				C7B82EE721AD29F7000119E6 /* Tool */,
 				C7193898219A7F64008980FF /* CreateView */,
 				C7193874219A7699008980FF /* UIImage */,
@@ -231,18 +230,11 @@
 			path = CreateView;
 			sourceTree = "<group>";
 		};
-		C7413C8C220001600094FFB0 /* Extension */ = {
+		C7B82EE721AD29F7000119E6 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
 				C7F613E1220532470015A5A0 /* UIView+YJExtension.h */,
 				C7F613E2220532470015A5A0 /* UIView+YJExtension.m */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		C7B82EE721AD29F7000119E6 /* Tool */ = {
-			isa = PBXGroup;
-			children = (
 				C713565121C34D2A005FB1F5 /* YJAllmethod.h */,
 				C713565021C34D29005FB1F5 /* YJAllmethod.m */,
 				C769550121ACDA8B0091728D /* ShowWarnView.h */,
