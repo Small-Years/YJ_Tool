@@ -118,21 +118,7 @@
     [needView.layer addSublayer:shapeLayer];
 }
 
-//毛玻璃
-+(UIImage *)createBlurImage:(UIImage *)theImage{
-    
-    CIContext *context = [CIContext contextWithOptions:nil];
-    CIImage *inputImage = [CIImage imageWithCGImage:theImage.CGImage];
-    
-    CIFilter *filter = [CIFilter filterWithName:@"CIGaussianBlur"];
-    [filter setValue:inputImage forKey:kCIInputImageKey];
-    [filter setValue:[NSNumber numberWithFloat:20.0f] forKey:@"inputRadius"];
-    CIImage *result = [filter valueForKey:kCIOutputImageKey];
-    CGImageRef cgImage = [context createCGImage:result fromRect:[inputImage extent]];
-    UIImage *returnImage = [UIImage imageWithCGImage:cgImage];
-    CGImageRelease(cgImage);
-    return returnImage;
-}
+
 
 +(NSString *)getNowDateWithFormatter:(NSString *)dateFormatter{
     //    dateFormatter格式：yyyy-MM-dd 、yyyy年MM月dd日 。。。

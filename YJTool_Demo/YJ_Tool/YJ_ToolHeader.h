@@ -28,6 +28,7 @@
 #import "UIImage+Gif.h"
 #import "UIImage+SubImage.h"
 #import "UIImage+headImage.h"
+#import "UIImage+YJExtension.h"
 
 //Tool
 #import "YJAllmethod.h"
