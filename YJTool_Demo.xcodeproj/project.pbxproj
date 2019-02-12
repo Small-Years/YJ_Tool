@@ -26,6 +26,7 @@
 		C7193895219A7699008980FF /* UITableView+EmptyData.m in Sources */ = {isa = PBXBuildFile; fileRef = C7193889219A7699008980FF /* UITableView+EmptyData.m */; };
 		C7193896219A7699008980FF /* leftImage_Gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C719388A219A7699008980FF /* leftImage_Gray@2x.png */; };
 		C769550321ACDA8B0091728D /* ShowWarnView.m in Sources */ = {isa = PBXBuildFile; fileRef = C769550221ACDA8B0091728D /* ShowWarnView.m */; };
+		C775AB9D2212CA4200CDA453 /* UILabel+YJChangeLineSpaceAndWordSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = C775AB9C2212CA4200CDA453 /* UILabel+YJChangeLineSpaceAndWordSpace.m */; };
 		C7B82EE021AD26C0000119E6 /* UILabel+createLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B82EDF21AD26BF000119E6 /* UILabel+createLabel.m */; };
 		C7B82EE321AD26E9000119E6 /* UIButton+createBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B82EE221AD26E9000119E6 /* UIButton+createBtn.m */; };
 		C7B82EE621AD2943000119E6 /* UIImageView+createImgView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B82EE521AD2943000119E6 /* UIImageView+createImgView.m */; };
@@ -89,6 +90,8 @@
 		C769550121ACDA8B0091728D /* ShowWarnView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowWarnView.h; sourceTree = "<group>"; };
 		C769550221ACDA8B0091728D /* ShowWarnView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowWarnView.m; sourceTree = "<group>"; };
 		C769550421ACE4A20091728D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C775AB9B2212CA4200CDA453 /* UILabel+YJChangeLineSpaceAndWordSpace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+YJChangeLineSpaceAndWordSpace.h"; sourceTree = "<group>"; };
+		C775AB9C2212CA4200CDA453 /* UILabel+YJChangeLineSpaceAndWordSpace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YJChangeLineSpaceAndWordSpace.m"; sourceTree = "<group>"; };
 		C7B82EDE21AD26BF000119E6 /* UILabel+createLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+createLabel.h"; sourceTree = "<group>"; };
 		C7B82EDF21AD26BF000119E6 /* UILabel+createLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+createLabel.m"; sourceTree = "<group>"; };
 		C7B82EE121AD26E9000119E6 /* UIButton+createBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+createBtn.h"; sourceTree = "<group>"; };
@@ -272,6 +275,8 @@
 				C7F613E62205369E0015A5A0 /* NSDate+YJDateExtension.m */,
 				C7F613E822053D580015A5A0 /* NSString+YJStringExtension.h */,
 				C7F613E922053D580015A5A0 /* NSString+YJStringExtension.m */,
+				C775AB9B2212CA4200CDA453 /* UILabel+YJChangeLineSpaceAndWordSpace.h */,
+				C775AB9C2212CA4200CDA453 /* UILabel+YJChangeLineSpaceAndWordSpace.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -419,6 +424,7 @@
 				C719382B219A6C42008980FF /* main.m in Sources */,
 				C719388E219A7699008980FF /* UIImage+headImage.m in Sources */,
 				C769550321ACDA8B0091728D /* ShowWarnView.m in Sources */,
+				C775AB9D2212CA4200CDA453 /* UILabel+YJChangeLineSpaceAndWordSpace.m in Sources */,
 				C719388C219A7699008980FF /* UIImage+SubImage.m in Sources */,
 				C7F613E72205369E0015A5A0 /* NSDate+YJDateExtension.m in Sources */,
 				C7193890219A7699008980FF /* UIImage+Color.m in Sources */,

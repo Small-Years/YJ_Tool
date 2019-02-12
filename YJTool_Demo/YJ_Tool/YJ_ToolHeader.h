@@ -32,4 +32,4 @@
 
 //Tool
 #import "YJAllmethod.h"
-
+#import "UILabel+YJChangeLineSpaceAndWordSpace.h"
