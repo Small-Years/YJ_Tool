@@ -46,13 +46,29 @@
 }
 
 
-+ (instancetype)imageWithIcon:(NSString *)iconName border:(NSInteger)border color:(UIColor *)color{
+/**
+ *  生成头像
+ *
+ *  @param iconImg   头像图片名称
+ *  @param border 头像边框大小
+ *  @param color  头像边框的颜色
+ *
+ *  @return 生成好的头像
+ */
++ (instancetype)imageWithIcon:(id)iconImg border:(NSInteger)border color:(UIColor *)color{
     // 0. 加载原有图片
-    UIImage *image = [UIImage imageNamed:iconName];
+    UIImage *image;
+    
+    if ([iconImg isKindOfClass:[UIImage class]]) {
+        image = iconImg;
+    }else if ([iconImg isKindOfClass:[NSString class]]){
+        NSString *iconStr = (NSString *)iconImg;
+        image = [UIImage imageNamed:iconStr];
+    }
     image = [UIImage createSquareImageFromRectangleImage:image];
     
     // 1.创建图片上下文
-//    CGFloat margin = border;
+    //    CGFloat margin = border;
     CGFloat margin = image.size.width *0.06;
     CGSize size = CGSizeMake(image.size.width + margin, image.size.height + margin);
     

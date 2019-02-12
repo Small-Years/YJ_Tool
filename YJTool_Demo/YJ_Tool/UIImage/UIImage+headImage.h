@@ -12,13 +12,13 @@
 /**
  *  生成头像
  *
- *  @param iconName   头像图片名称
+ *  @param iconImg   头像图片名称
  *  @param border 头像边框大小
  *  @param color  头像边框的颜色
  *
  *  @return 生成好的头像
  */
-+(instancetype)imageWithIcon:(NSString *)iconName border:(NSInteger)border color:(UIColor *)color;
++ (instancetype)imageWithIcon:(id)iconImg border:(NSInteger)border color:(UIColor *)color;
 
 /**
  将长方形变为正方形(取中间部分)
