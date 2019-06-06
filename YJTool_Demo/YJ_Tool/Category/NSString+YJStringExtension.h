@@ -61,6 +61,16 @@ typedef enum : NSUInteger {
 - (BOOL)isRuleType:(NSStringRuleType)ruleType min:(int)min max:(int)max;
 
 
++(NSString *)deleteNullStr:(NSString *)needString DeleteStr:(NSString *)deleteStr;
+
+/**
+ 处理nil字符串的显示问题(nil、(null)  ->  @"")
+ 
+ @param string 需要处理的字符串
+ @return str
+ */
++(NSString *)dealNilString:(NSString *)string;
+
 @end
 
 NS_ASSUME_NONNULL_END
