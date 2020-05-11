@@ -11,11 +11,11 @@
 
 @implementation YJAllmethod
 
-+ (UIBarButtonItem *)getLeftBarButtonItemWithSelect:(SEL)select andTarget:(id )obj WithStyle:(navigationBarStyle)style{
++ (UIBarButtonItem *)getLeftBarButtonItemWithSelect:(SEL)select andTarget:(id )obj WithStyle:(yjNavigationBarStyle)style{
     //返回
     UIButton* backButton= [[UIButton alloc] initWithFrame:CGRectMake(0,0,26,50)];
     backButton.contentMode=UIViewContentModeCenter;
-    if (style == navigationBarStyle_gray) {
+    if (style == yjNavigationBarStyle_gray) {
         [backButton setImage:[UIImage imageNamed:@"leftImage_Gray"] forState:UIControlStateNormal];
     }else{
         [backButton setImage:[UIImage imageNamed:@"leftImage_White"] forState:UIControlStateNormal];

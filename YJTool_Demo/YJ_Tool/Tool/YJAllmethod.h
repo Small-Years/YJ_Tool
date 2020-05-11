@@ -10,9 +10,9 @@
 #import <UIKit/UIKit.h>
 
 typedef enum : NSUInteger{//返回按钮的颜色，白色和灰色
-    navigationBarStyle_White,
-    navigationBarStyle_gray,
-} navigationBarStyle;
+    yjNavigationBarStyle_White,
+    yjNavigationBarStyle_gray,
+} yjNavigationBarStyle;
 
 
 /// 边框类型(位移枚举)
@@ -35,12 +35,12 @@ typedef enum : NSUInteger {
 
 @interface YJAllmethod : NSObject
 
-+ (UIBarButtonItem *)getLeftBarButtonItemWithSelect:(SEL)select andTarget:(id )obj WithStyle:(navigationBarStyle)style;
++ (UIBarButtonItem *)getLeftBarButtonItemWithSelect:(SEL)select andTarget:(id )obj WithStyle:(yjNavigationBarStyle)style;
 
 
 /**
  向textField添加右侧image
-
+ 
  @param textField textField
  @param imageName 图片名称
  */
@@ -49,7 +49,7 @@ typedef enum : NSUInteger {
 
 /**
  给View添加阴影
-
+ 
  @param needView view
  @param shadowColor 阴影颜色
  @param shadowWidth 阴影宽度
@@ -59,7 +59,7 @@ typedef enum : NSUInteger {
 
 /**
  添加边框
-
+ 
  @param needView 需要添加边框的view
  @param bordercolor 边框颜色
  @param borderWidth 宽度
@@ -90,7 +90,7 @@ typedef enum : NSUInteger {
 //Tool
 /**
  判断字符串是否为空
-
+ 
  @param aStr aStr
  @return 空：YES  不空：NO
  */
